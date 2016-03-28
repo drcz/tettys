@@ -10,6 +10,6 @@ there's one tetrino for each day of the week, you know.
 
 To compile on linux:
 
-$ gcc tettys.c -o tettys -lm curses
+$ gcc tettys.c -o tettys -lncurses
 
-(requires curses library; or ncurses perhaps?)
+(requires [n]curses library)
